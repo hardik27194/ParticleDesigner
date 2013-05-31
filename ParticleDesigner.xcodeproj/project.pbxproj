@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590697E8171D4D9C00E3E68D /* ContainerViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 590697E7171D4D9C00E3E68D /* ContainerViewController3.m */; };
+		590723FF1714FC92001417EC /* shadowOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590723F81714FC92001417EC /* shadowOverlay@2x.png */; };
+		590724001714FC92001417EC /* stretchableGlass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590723F91714FC92001417EC /* stretchableGlass@2x.png */; };
+		590724011714FC92001417EC /* wheelBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 590723FA1714FC92001417EC /* wheelBackground@2x.png */; };
+		590724021714FC92001417EC /* CPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 590723FC1714FC92001417EC /* CPPickerView.m */; };
+		590724031714FC92001417EC /* CPPickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 590723FE1714FC92001417EC /* CPPickerViewCell.m */; };
+		590827A617154D8600B867C0 /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 590827A517154D8600B867C0 /* particle.png */; };
+		59084CD5171E7D2500BF7F02 /* ContainerViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 59084CD4171E7D2500BF7F02 /* ContainerViewController4.m */; };
+		59084CD8171E88EF00BF7F02 /* MagnificationFilterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59084CD7171E88EF00BF7F02 /* MagnificationFilterHandler.m */; };
+		59084CDB171E93B700BF7F02 /* MinificationFilterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59084CDA171E93B700BF7F02 /* MinificationFilterHandler.m */; };
+		59084CDE171E9E4F00BF7F02 /* ScaleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59084CDD171E9E4F00BF7F02 /* ScaleHandler.m */; };
+		59084CE1171EA76F00BF7F02 /* ScaleRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59084CE0171EA76F00BF7F02 /* ScaleRangeHandler.m */; };
+		59084CE4171EAA6500BF7F02 /* ScaleSpeedHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59084CE3171EAA6500BF7F02 /* ScaleSpeedHandler.m */; };
+		59090AD3171CD41C00CBBBCA /* EmitterLifeTimeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59090AD2171CD41C00CBBBCA /* EmitterLifeTimeHandler.m */; };
+		59093D821718E6E100522783 /* ContainerViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 59093D811718E6E100522783 /* ContainerViewController1.m */; };
+		59093D8B1718FDCE00522783 /* EmitterDepthHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59093D8A1718FDCE00522783 /* EmitterDepthHandler.m */; };
+		5909D6DC171954400015BD89 /* EmitterSizeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5909D6DB171954400015BD89 /* EmitterSizeHandler.m */; };
+		5909D95E171B81F000E192DE /* EmitterScaleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5909D95D171B81F000E192DE /* EmitterScaleHandler.m */; };
+		5909D962171B87F700E192DE /* ContainerViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5909D961171B87F700E192DE /* ContainerViewController2.m */; };
+		5909D966171B9B0E00E192DE /* EmitterSpinHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5909D965171B9B0E00E192DE /* EmitterSpinHandler.m */; };
+		5909D969171BA2E700E192DE /* EmitterVelocityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5909D968171BA2E700E192DE /* EmitterVelocityHandler.m */; };
+		5909D96C171BAD6800E192DE /* EmitterModeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5909D96B171BAD6800E192DE /* EmitterModeHandler.m */; };
+		590B041C171F773B0008C452 /* SpinHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B041B171F773B0008C452 /* SpinHandler.m */; };
+		590B041F171F798D0008C452 /* SpinRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B041E171F798D0008C452 /* SpinRangeHandler.m */; };
+		590B0424171F80F50008C452 /* ContainerViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0423171F80F50008C452 /* ContainerViewController5.m */; };
+		590B0427171F904E0008C452 /* CellBirthRateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0426171F904E0008C452 /* CellBirthRateHandler.m */; };
+		590B042A171F908F0008C452 /* CellLifeTimeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0429171F908F0008C452 /* CellLifeTimeHandler.m */; };
+		590B042D171F909F0008C452 /* CellLifeTimeRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B042C171F909F0008C452 /* CellLifeTimeRangeHandler.m */; };
+		590B0430171F9ED60008C452 /* EmissionLatitudeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B042F171F9ED60008C452 /* EmissionLatitudeHandler.m */; };
+		590B0433171F9EEB0008C452 /* EmissionLongitudeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0432171F9EEB0008C452 /* EmissionLongitudeHandler.m */; };
+		590B0436171F9EFD0008C452 /* EmissionRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0435171F9EFD0008C452 /* EmissionRangeHandler.m */; };
+		590B0439171F9F210008C452 /* VelocityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0438171F9F210008C452 /* VelocityHandler.m */; };
+		590B043C171F9F2F0008C452 /* VelocityRangeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B043B171F9F2E0008C452 /* VelocityRangeHandler.m */; };
+		590B043F171F9F400008C452 /* XAccelerationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B043E171F9F400008C452 /* XAccelerationHandler.m */; };
+		590B0442171F9F4F0008C452 /* YAccelerationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0441171F9F4F0008C452 /* YAccelerationHandler.m */; };
+		590B0445171F9F5C0008C452 /* ZAccelerationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0444171F9F5C0008C452 /* ZAccelerationHandler.m */; };
+		590B0448171FA2660008C452 /* TextFieldSliderHandlerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B0447171FA2650008C452 /* TextFieldSliderHandlerBase.m */; };
+		590C9FF3171BF92F0055D3BE /* EmitterBirthRateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590C9FF2171BF92F0055D3BE /* EmitterBirthRateHandler.m */; };
+		590C9FF5171BFFF10055D3BE /* separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 590C9FF4171BFFF00055D3BE /* separator.png */; };
+		590CD40F171E495D001C84D3 /* RedHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CD40E171E495D001C84D3 /* RedHandler.m */; };
+		590CD41B171E55E1001C84D3 /* GreenHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CD41A171E55E1001C84D3 /* GreenHandler.m */; };
+		590CD41E171E55EB001C84D3 /* BlueHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CD41D171E55EA001C84D3 /* BlueHandler.m */; };
+		590CD421171E55F4001C84D3 /* AlphaHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590CD420171E55F4001C84D3 /* AlphaHandler.m */; };
+		590DA31C17180907003C9F5C /* EmitterShapeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 590DA31B17180907003C9F5C /* EmitterShapeHandler.m */; };
 		5911FB7017140DB400D0B1B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5911FB6F17140DB400D0B1B2 /* UIKit.framework */; };
 		5911FB7217140DB400D0B1B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5911FB7117140DB400D0B1B2 /* Foundation.framework */; };
 		5911FB7417140DB400D0B1B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5911FB7317140DB400D0B1B2 /* CoreGraphics.framework */; };
@@ -16,9 +60,120 @@
 		5911FB8217140DB400D0B1B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5911FB8117140DB400D0B1B2 /* Default.png */; };
 		5911FB8417140DB400D0B1B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5911FB8317140DB400D0B1B2 /* Default@2x.png */; };
 		5911FB8617140DB400D0B1B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5911FB8517140DB400D0B1B2 /* Default-568h@2x.png */; };
+		5911FB921714170500D0B1B2 /* ParticleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5911FB911714170500D0B1B2 /* ParticleContentView.m */; };
+		5911FB9617141AB500D0B1B2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5911FB9517141AB500D0B1B2 /* MainViewController.m */; };
+		5911FB9917141F9D00D0B1B2 /* ArgumentHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5911FB9817141F9D00D0B1B2 /* ArgumentHandleView.m */; };
+		5914FBBE1716B04E0041D66D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5914FBBD1716B04E0041D66D /* MainStoryboard.storyboard */; };
+		59188E2B171655160061B13C /* PositionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59188E2A171655160061B13C /* PositionHandler.m */; };
+		594F712217150D6800DC8128 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F712117150D6800DC8128 /* Data.m */; };
+		594F71251715112E00DC8128 /* RenderModeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F71241715112E00DC8128 /* RenderModeHandler.m */; };
+		594F71301715176900DC8128 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F712F1715176900DC8128 /* QuartzCore.framework */; };
+		596B0D30171CE9F500C2B424 /* HSV.c in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D15171CE9F500C2B424 /* HSV.c */; };
+		596B0D31171CE9F500C2B424 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0D18171CE9F500C2B424 /* checkerboard.png */; };
+		596B0D32171CE9F500C2B424 /* checkerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0D19171CE9F500C2B424 /* checkerboard@2x.png */; };
+		596B0D33171CE9F500C2B424 /* colorPickerKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0D1A171CE9F500C2B424 /* colorPickerKnob.png */; };
+		596B0D34171CE9F500C2B424 /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0D1B171CE9F500C2B424 /* colorPickerKnob@2x.png */; };
+		596B0D35171CE9F500C2B424 /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0D1C171CE9F500C2B424 /* pickerColorWheel.png */; };
+		596B0D36171CE9F500C2B424 /* pickerColorWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 596B0D1D171CE9F500C2B424 /* pickerColorWheel@2x.png */; };
+		596B0D37171CE9F500C2B424 /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D1F171CE9F500C2B424 /* KZColorCompareView.m */; };
+		596B0D38171CE9F500C2B424 /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D21171CE9F500C2B424 /* KZColorPicker.m */; };
+		596B0D39171CE9F500C2B424 /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D23171CE9F500C2B424 /* KZColorPickerAlphaSlider.m */; };
+		596B0D3A171CE9F500C2B424 /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D25171CE9F500C2B424 /* KZColorPickerBrightnessSlider.m */; };
+		596B0D3B171CE9F500C2B424 /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D27171CE9F500C2B424 /* KZColorPickerHSWheel.m */; };
+		596B0D3C171CE9F500C2B424 /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D29171CE9F500C2B424 /* KZColorPickerSwatchView.m */; };
+		596B0D3D171CE9F500C2B424 /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D2B171CE9F500C2B424 /* KZUnitSlider.m */; };
+		596B0D3E171CE9F500C2B424 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D2D171CE9F500C2B424 /* UIColor-Expanded.m */; };
+		596B0D3F171CE9F500C2B424 /* KZColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D2F171CE9F500C2B424 /* KZColorPickerViewController.m */; };
+		596B0D44171CF3F500C2B424 /* ParticleColorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D43171CF3F500C2B424 /* ParticleColorHandler.m */; };
+		596B0D4A171CFE2300C2B424 /* UIGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D47171CFE2300C2B424 /* UIGlossyButton.m */; };
+		596B0D4B171CFE2300C2B424 /* UIView+LayerEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B0D49171CFE2300C2B424 /* UIView+LayerEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590697E6171D4D9C00E3E68D /* ContainerViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController3.h; sourceTree = "<group>"; };
+		590697E7171D4D9C00E3E68D /* ContainerViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController3.m; sourceTree = "<group>"; };
+		590723F81714FC92001417EC /* shadowOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shadowOverlay@2x.png"; sourceTree = "<group>"; };
+		590723F91714FC92001417EC /* stretchableGlass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stretchableGlass@2x.png"; sourceTree = "<group>"; };
+		590723FA1714FC92001417EC /* wheelBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheelBackground@2x.png"; sourceTree = "<group>"; };
+		590723FB1714FC92001417EC /* CPPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPickerView.h; sourceTree = "<group>"; };
+		590723FC1714FC92001417EC /* CPPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPickerView.m; sourceTree = "<group>"; };
+		590723FD1714FC92001417EC /* CPPickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPickerViewCell.h; sourceTree = "<group>"; };
+		590723FE1714FC92001417EC /* CPPickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPickerViewCell.m; sourceTree = "<group>"; };
+		590827A517154D8600B867C0 /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
+		59084CD3171E7D2500BF7F02 /* ContainerViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController4.h; sourceTree = "<group>"; };
+		59084CD4171E7D2500BF7F02 /* ContainerViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController4.m; sourceTree = "<group>"; };
+		59084CD6171E88EF00BF7F02 /* MagnificationFilterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnificationFilterHandler.h; sourceTree = "<group>"; };
+		59084CD7171E88EF00BF7F02 /* MagnificationFilterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnificationFilterHandler.m; sourceTree = "<group>"; };
+		59084CD9171E93B700BF7F02 /* MinificationFilterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinificationFilterHandler.h; sourceTree = "<group>"; };
+		59084CDA171E93B700BF7F02 /* MinificationFilterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinificationFilterHandler.m; sourceTree = "<group>"; };
+		59084CDC171E9E4F00BF7F02 /* ScaleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleHandler.h; sourceTree = "<group>"; };
+		59084CDD171E9E4F00BF7F02 /* ScaleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleHandler.m; sourceTree = "<group>"; };
+		59084CDF171EA76F00BF7F02 /* ScaleRangeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleRangeHandler.h; sourceTree = "<group>"; };
+		59084CE0171EA76F00BF7F02 /* ScaleRangeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleRangeHandler.m; sourceTree = "<group>"; };
+		59084CE2171EAA6500BF7F02 /* ScaleSpeedHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleSpeedHandler.h; sourceTree = "<group>"; };
+		59084CE3171EAA6500BF7F02 /* ScaleSpeedHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleSpeedHandler.m; sourceTree = "<group>"; };
+		59090AD1171CD41C00CBBBCA /* EmitterLifeTimeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLifeTimeHandler.h; sourceTree = "<group>"; };
+		59090AD2171CD41C00CBBBCA /* EmitterLifeTimeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLifeTimeHandler.m; sourceTree = "<group>"; };
+		59093D801718E6E100522783 /* ContainerViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController1.h; sourceTree = "<group>"; };
+		59093D811718E6E100522783 /* ContainerViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController1.m; sourceTree = "<group>"; };
+		59093D881718F84300522783 /* ContainerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewControllerDelegate.h; sourceTree = "<group>"; };
+		59093D891718FDCE00522783 /* EmitterDepthHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterDepthHandler.h; sourceTree = "<group>"; };
+		59093D8A1718FDCE00522783 /* EmitterDepthHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterDepthHandler.m; sourceTree = "<group>"; };
+		5909D6DA171954400015BD89 /* EmitterSizeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterSizeHandler.h; sourceTree = "<group>"; };
+		5909D6DB171954400015BD89 /* EmitterSizeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterSizeHandler.m; sourceTree = "<group>"; };
+		5909D95C171B81F000E192DE /* EmitterScaleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterScaleHandler.h; sourceTree = "<group>"; };
+		5909D95D171B81F000E192DE /* EmitterScaleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterScaleHandler.m; sourceTree = "<group>"; };
+		5909D960171B87F700E192DE /* ContainerViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController2.h; sourceTree = "<group>"; };
+		5909D961171B87F700E192DE /* ContainerViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController2.m; sourceTree = "<group>"; };
+		5909D964171B9B0E00E192DE /* EmitterSpinHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterSpinHandler.h; sourceTree = "<group>"; };
+		5909D965171B9B0E00E192DE /* EmitterSpinHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterSpinHandler.m; sourceTree = "<group>"; };
+		5909D967171BA2E700E192DE /* EmitterVelocityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterVelocityHandler.h; sourceTree = "<group>"; };
+		5909D968171BA2E700E192DE /* EmitterVelocityHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterVelocityHandler.m; sourceTree = "<group>"; };
+		5909D96A171BAD6700E192DE /* EmitterModeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterModeHandler.h; sourceTree = "<group>"; };
+		5909D96B171BAD6800E192DE /* EmitterModeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterModeHandler.m; sourceTree = "<group>"; };
+		590B041A171F773B0008C452 /* SpinHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinHandler.h; sourceTree = "<group>"; };
+		590B041B171F773B0008C452 /* SpinHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinHandler.m; sourceTree = "<group>"; };
+		590B041D171F798D0008C452 /* SpinRangeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinRangeHandler.h; sourceTree = "<group>"; };
+		590B041E171F798D0008C452 /* SpinRangeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinRangeHandler.m; sourceTree = "<group>"; };
+		590B0422171F80F50008C452 /* ContainerViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController5.h; sourceTree = "<group>"; };
+		590B0423171F80F50008C452 /* ContainerViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController5.m; sourceTree = "<group>"; };
+		590B0425171F904E0008C452 /* CellBirthRateHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellBirthRateHandler.h; sourceTree = "<group>"; };
+		590B0426171F904E0008C452 /* CellBirthRateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellBirthRateHandler.m; sourceTree = "<group>"; };
+		590B0428171F908F0008C452 /* CellLifeTimeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellLifeTimeHandler.h; sourceTree = "<group>"; };
+		590B0429171F908F0008C452 /* CellLifeTimeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellLifeTimeHandler.m; sourceTree = "<group>"; };
+		590B042B171F909F0008C452 /* CellLifeTimeRangeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellLifeTimeRangeHandler.h; sourceTree = "<group>"; };
+		590B042C171F909F0008C452 /* CellLifeTimeRangeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellLifeTimeRangeHandler.m; sourceTree = "<group>"; };
+		590B042E171F9ED60008C452 /* EmissionLatitudeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmissionLatitudeHandler.h; sourceTree = "<group>"; };
+		590B042F171F9ED60008C452 /* EmissionLatitudeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmissionLatitudeHandler.m; sourceTree = "<group>"; };
+		590B0431171F9EEB0008C452 /* EmissionLongitudeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmissionLongitudeHandler.h; sourceTree = "<group>"; };
+		590B0432171F9EEB0008C452 /* EmissionLongitudeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmissionLongitudeHandler.m; sourceTree = "<group>"; };
+		590B0434171F9EFD0008C452 /* EmissionRangeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmissionRangeHandler.h; sourceTree = "<group>"; };
+		590B0435171F9EFD0008C452 /* EmissionRangeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmissionRangeHandler.m; sourceTree = "<group>"; };
+		590B0437171F9F210008C452 /* VelocityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocityHandler.h; sourceTree = "<group>"; };
+		590B0438171F9F210008C452 /* VelocityHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocityHandler.m; sourceTree = "<group>"; };
+		590B043A171F9F2E0008C452 /* VelocityRangeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocityRangeHandler.h; sourceTree = "<group>"; };
+		590B043B171F9F2E0008C452 /* VelocityRangeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocityRangeHandler.m; sourceTree = "<group>"; };
+		590B043D171F9F3F0008C452 /* XAccelerationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAccelerationHandler.h; sourceTree = "<group>"; };
+		590B043E171F9F400008C452 /* XAccelerationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAccelerationHandler.m; sourceTree = "<group>"; };
+		590B0440171F9F4F0008C452 /* YAccelerationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAccelerationHandler.h; sourceTree = "<group>"; };
+		590B0441171F9F4F0008C452 /* YAccelerationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAccelerationHandler.m; sourceTree = "<group>"; };
+		590B0443171F9F5C0008C452 /* ZAccelerationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAccelerationHandler.h; sourceTree = "<group>"; };
+		590B0444171F9F5C0008C452 /* ZAccelerationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAccelerationHandler.m; sourceTree = "<group>"; };
+		590B0446171FA2640008C452 /* TextFieldSliderHandlerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldSliderHandlerBase.h; sourceTree = "<group>"; };
+		590B0447171FA2650008C452 /* TextFieldSliderHandlerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldSliderHandlerBase.m; sourceTree = "<group>"; };
+		590C9FF1171BF92F0055D3BE /* EmitterBirthRateHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterBirthRateHandler.h; sourceTree = "<group>"; };
+		590C9FF2171BF92F0055D3BE /* EmitterBirthRateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterBirthRateHandler.m; sourceTree = "<group>"; };
+		590C9FF4171BFFF00055D3BE /* separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator.png; sourceTree = "<group>"; };
+		590CD40D171E495D001C84D3 /* RedHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedHandler.h; sourceTree = "<group>"; };
+		590CD40E171E495D001C84D3 /* RedHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedHandler.m; sourceTree = "<group>"; };
+		590CD419171E55E1001C84D3 /* GreenHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenHandler.h; sourceTree = "<group>"; };
+		590CD41A171E55E1001C84D3 /* GreenHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenHandler.m; sourceTree = "<group>"; };
+		590CD41C171E55EA001C84D3 /* BlueHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueHandler.h; sourceTree = "<group>"; };
+		590CD41D171E55EA001C84D3 /* BlueHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueHandler.m; sourceTree = "<group>"; };
+		590CD41F171E55F4001C84D3 /* AlphaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaHandler.h; sourceTree = "<group>"; };
+		590CD420171E55F4001C84D3 /* AlphaHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaHandler.m; sourceTree = "<group>"; };
+		590DA31A17180907003C9F5C /* EmitterShapeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShapeHandler.h; sourceTree = "<group>"; };
+		590DA31B17180907003C9F5C /* EmitterShapeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShapeHandler.m; sourceTree = "<group>"; };
 		5911FB6C17140DB400D0B1B2 /* ParticleDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5911FB6F17140DB400D0B1B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5911FB7117140DB400D0B1B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +187,52 @@
 		5911FB8117140DB400D0B1B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5911FB8317140DB400D0B1B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5911FB8517140DB400D0B1B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5911FB901714170500D0B1B2 /* ParticleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleContentView.h; sourceTree = "<group>"; };
+		5911FB911714170500D0B1B2 /* ParticleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleContentView.m; sourceTree = "<group>"; };
+		5911FB9417141AB500D0B1B2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5911FB9517141AB500D0B1B2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5911FB9717141F9D00D0B1B2 /* ArgumentHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgumentHandleView.h; sourceTree = "<group>"; };
+		5911FB9817141F9D00D0B1B2 /* ArgumentHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArgumentHandleView.m; sourceTree = "<group>"; };
+		5914FBBD1716B04E0041D66D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		59188E29171655160061B13C /* PositionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionHandler.h; sourceTree = "<group>"; };
+		59188E2A171655160061B13C /* PositionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionHandler.m; sourceTree = "<group>"; };
+		594F712017150D6800DC8128 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		594F712117150D6800DC8128 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		594F71231715112E00DC8128 /* RenderModeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderModeHandler.h; sourceTree = "<group>"; };
+		594F71241715112E00DC8128 /* RenderModeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderModeHandler.m; sourceTree = "<group>"; };
+		594F712F1715176900DC8128 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		596B0D15171CE9F500C2B424 /* HSV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HSV.c; sourceTree = "<group>"; };
+		596B0D16171CE9F500C2B424 /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSV.h; sourceTree = "<group>"; };
+		596B0D18171CE9F500C2B424 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		596B0D19171CE9F500C2B424 /* checkerboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkerboard@2x.png"; sourceTree = "<group>"; };
+		596B0D1A171CE9F500C2B424 /* colorPickerKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPickerKnob.png; sourceTree = "<group>"; };
+		596B0D1B171CE9F500C2B424 /* colorPickerKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorPickerKnob@2x.png"; sourceTree = "<group>"; };
+		596B0D1C171CE9F500C2B424 /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
+		596B0D1D171CE9F500C2B424 /* pickerColorWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerColorWheel@2x.png"; sourceTree = "<group>"; };
+		596B0D1E171CE9F500C2B424 /* KZColorCompareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorCompareView.h; sourceTree = "<group>"; };
+		596B0D1F171CE9F500C2B424 /* KZColorCompareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorCompareView.m; sourceTree = "<group>"; };
+		596B0D20171CE9F500C2B424 /* KZColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPicker.h; sourceTree = "<group>"; };
+		596B0D21171CE9F500C2B424 /* KZColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPicker.m; sourceTree = "<group>"; };
+		596B0D22171CE9F500C2B424 /* KZColorPickerAlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerAlphaSlider.h; sourceTree = "<group>"; };
+		596B0D23171CE9F500C2B424 /* KZColorPickerAlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerAlphaSlider.m; sourceTree = "<group>"; };
+		596B0D24171CE9F500C2B424 /* KZColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
+		596B0D25171CE9F500C2B424 /* KZColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
+		596B0D26171CE9F500C2B424 /* KZColorPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerHSWheel.h; sourceTree = "<group>"; };
+		596B0D27171CE9F500C2B424 /* KZColorPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerHSWheel.m; sourceTree = "<group>"; };
+		596B0D28171CE9F500C2B424 /* KZColorPickerSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerSwatchView.h; sourceTree = "<group>"; };
+		596B0D29171CE9F500C2B424 /* KZColorPickerSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerSwatchView.m; sourceTree = "<group>"; };
+		596B0D2A171CE9F500C2B424 /* KZUnitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUnitSlider.h; sourceTree = "<group>"; };
+		596B0D2B171CE9F500C2B424 /* KZUnitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUnitSlider.m; sourceTree = "<group>"; };
+		596B0D2C171CE9F500C2B424 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		596B0D2D171CE9F500C2B424 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		596B0D2E171CE9F500C2B424 /* KZColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerViewController.h; sourceTree = "<group>"; };
+		596B0D2F171CE9F500C2B424 /* KZColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerViewController.m; sourceTree = "<group>"; };
+		596B0D42171CF3F500C2B424 /* ParticleColorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleColorHandler.h; sourceTree = "<group>"; };
+		596B0D43171CF3F500C2B424 /* ParticleColorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleColorHandler.m; sourceTree = "<group>"; };
+		596B0D46171CFE2300C2B424 /* UIGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGlossyButton.h; sourceTree = "<group>"; };
+		596B0D47171CFE2300C2B424 /* UIGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGlossyButton.m; sourceTree = "<group>"; };
+		596B0D48171CFE2300C2B424 /* UIView+LayerEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerEffects.h"; sourceTree = "<group>"; };
+		596B0D49171CFE2300C2B424 /* UIView+LayerEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F71301715176900DC8128 /* QuartzCore.framework in Frameworks */,
 				5911FB7017140DB400D0B1B2 /* UIKit.framework in Frameworks */,
 				5911FB7217140DB400D0B1B2 /* Foundation.framework in Frameworks */,
 				5911FB7417140DB400D0B1B2 /* CoreGraphics.framework in Frameworks */,
@@ -48,10 +250,214 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590697E4171D4D6800E3E68D /* ContainerViewController3 */ = {
+			isa = PBXGroup;
+			children = (
+				590697E6171D4D9C00E3E68D /* ContainerViewController3.h */,
+				590697E7171D4D9C00E3E68D /* ContainerViewController3.m */,
+				590697E5171D4D7E00E3E68D /* Handler */,
+			);
+			name = ContainerViewController3;
+			sourceTree = "<group>";
+		};
+		590697E5171D4D7E00E3E68D /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				596B0D42171CF3F500C2B424 /* ParticleColorHandler.h */,
+				596B0D43171CF3F500C2B424 /* ParticleColorHandler.m */,
+				590CD40D171E495D001C84D3 /* RedHandler.h */,
+				590CD40E171E495D001C84D3 /* RedHandler.m */,
+				590CD419171E55E1001C84D3 /* GreenHandler.h */,
+				590CD41A171E55E1001C84D3 /* GreenHandler.m */,
+				590CD41C171E55EA001C84D3 /* BlueHandler.h */,
+				590CD41D171E55EA001C84D3 /* BlueHandler.m */,
+				590CD41F171E55F4001C84D3 /* AlphaHandler.h */,
+				590CD420171E55F4001C84D3 /* AlphaHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		590723F71714FC00001417EC /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				596B0D45171CFE2300C2B424 /* UIGlossyButton */,
+				590724051714FCC2001417EC /* CPPickerView */,
+				596B0D13171CE9F500C2B424 /* KZColorPickerViewController */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		590724041714FCA7001417EC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				590723F81714FC92001417EC /* shadowOverlay@2x.png */,
+				590723F91714FC92001417EC /* stretchableGlass@2x.png */,
+				590723FA1714FC92001417EC /* wheelBackground@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		590724051714FCC2001417EC /* CPPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				590724041714FCA7001417EC /* Assets */,
+				590723FB1714FC92001417EC /* CPPickerView.h */,
+				590723FC1714FC92001417EC /* CPPickerView.m */,
+				590723FD1714FC92001417EC /* CPPickerViewCell.h */,
+				590723FE1714FC92001417EC /* CPPickerViewCell.m */,
+			);
+			path = CPPickerView;
+			sourceTree = "<group>";
+		};
+		59084CD1171E7CC500BF7F02 /* ContainerViewController4 */ = {
+			isa = PBXGroup;
+			children = (
+				59084CD3171E7D2500BF7F02 /* ContainerViewController4.h */,
+				59084CD4171E7D2500BF7F02 /* ContainerViewController4.m */,
+				59084CD2171E7CD600BF7F02 /* Handler */,
+			);
+			name = ContainerViewController4;
+			sourceTree = "<group>";
+		};
+		59084CD2171E7CD600BF7F02 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				59084CD6171E88EF00BF7F02 /* MagnificationFilterHandler.h */,
+				59084CD7171E88EF00BF7F02 /* MagnificationFilterHandler.m */,
+				59084CD9171E93B700BF7F02 /* MinificationFilterHandler.h */,
+				59084CDA171E93B700BF7F02 /* MinificationFilterHandler.m */,
+				59084CDC171E9E4F00BF7F02 /* ScaleHandler.h */,
+				59084CDD171E9E4F00BF7F02 /* ScaleHandler.m */,
+				59084CDF171EA76F00BF7F02 /* ScaleRangeHandler.h */,
+				59084CE0171EA76F00BF7F02 /* ScaleRangeHandler.m */,
+				59084CE2171EAA6500BF7F02 /* ScaleSpeedHandler.h */,
+				59084CE3171EAA6500BF7F02 /* ScaleSpeedHandler.m */,
+				590B041A171F773B0008C452 /* SpinHandler.h */,
+				590B041B171F773B0008C452 /* SpinHandler.m */,
+				590B041D171F798D0008C452 /* SpinRangeHandler.h */,
+				590B041E171F798D0008C452 /* SpinRangeHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		59093D7F1718E6B100522783 /* ContainerViewController1 */ = {
+			isa = PBXGroup;
+			children = (
+				59093D801718E6E100522783 /* ContainerViewController1.h */,
+				59093D811718E6E100522783 /* ContainerViewController1.m */,
+				59093D841718E71300522783 /* Handler */,
+			);
+			name = ContainerViewController1;
+			sourceTree = "<group>";
+		};
+		59093D841718E71300522783 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				594F71231715112E00DC8128 /* RenderModeHandler.h */,
+				594F71241715112E00DC8128 /* RenderModeHandler.m */,
+				590DA31A17180907003C9F5C /* EmitterShapeHandler.h */,
+				590DA31B17180907003C9F5C /* EmitterShapeHandler.m */,
+				5909D96A171BAD6700E192DE /* EmitterModeHandler.h */,
+				5909D96B171BAD6800E192DE /* EmitterModeHandler.m */,
+				59188E29171655160061B13C /* PositionHandler.h */,
+				59188E2A171655160061B13C /* PositionHandler.m */,
+				59093D891718FDCE00522783 /* EmitterDepthHandler.h */,
+				59093D8A1718FDCE00522783 /* EmitterDepthHandler.m */,
+				5909D6DA171954400015BD89 /* EmitterSizeHandler.h */,
+				5909D6DB171954400015BD89 /* EmitterSizeHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		59093D871718F81E00522783 /* ContainerViewControllerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				59093D881718F84300522783 /* ContainerViewControllerDelegate.h */,
+			);
+			name = ContainerViewControllerDelegate;
+			sourceTree = "<group>";
+		};
+		5909D95F171B87C700E192DE /* ContainerViewController2 */ = {
+			isa = PBXGroup;
+			children = (
+				5909D960171B87F700E192DE /* ContainerViewController2.h */,
+				5909D961171B87F700E192DE /* ContainerViewController2.m */,
+				5909D963171B885800E192DE /* Handler */,
+			);
+			name = ContainerViewController2;
+			sourceTree = "<group>";
+		};
+		5909D963171B885800E192DE /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				5909D95C171B81F000E192DE /* EmitterScaleHandler.h */,
+				5909D95D171B81F000E192DE /* EmitterScaleHandler.m */,
+				5909D964171B9B0E00E192DE /* EmitterSpinHandler.h */,
+				5909D965171B9B0E00E192DE /* EmitterSpinHandler.m */,
+				5909D967171BA2E700E192DE /* EmitterVelocityHandler.h */,
+				5909D968171BA2E700E192DE /* EmitterVelocityHandler.m */,
+				590C9FF1171BF92F0055D3BE /* EmitterBirthRateHandler.h */,
+				590C9FF2171BF92F0055D3BE /* EmitterBirthRateHandler.m */,
+				59090AD1171CD41C00CBBBCA /* EmitterLifeTimeHandler.h */,
+				59090AD2171CD41C00CBBBCA /* EmitterLifeTimeHandler.m */,
+				590B0425171F904E0008C452 /* CellBirthRateHandler.h */,
+				590B0426171F904E0008C452 /* CellBirthRateHandler.m */,
+				590B0428171F908F0008C452 /* CellLifeTimeHandler.h */,
+				590B0429171F908F0008C452 /* CellLifeTimeHandler.m */,
+				590B042B171F909F0008C452 /* CellLifeTimeRangeHandler.h */,
+				590B042C171F909F0008C452 /* CellLifeTimeRangeHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		590B0420171F806C0008C452 /* ContainerViewController5 */ = {
+			isa = PBXGroup;
+			children = (
+				590B0422171F80F50008C452 /* ContainerViewController5.h */,
+				590B0423171F80F50008C452 /* ContainerViewController5.m */,
+				590B0421171F807A0008C452 /* Handler */,
+			);
+			name = ContainerViewController5;
+			sourceTree = "<group>";
+		};
+		590B0421171F807A0008C452 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				590B0446171FA2640008C452 /* TextFieldSliderHandlerBase.h */,
+				590B0447171FA2650008C452 /* TextFieldSliderHandlerBase.m */,
+				590B042E171F9ED60008C452 /* EmissionLatitudeHandler.h */,
+				590B042F171F9ED60008C452 /* EmissionLatitudeHandler.m */,
+				590B0431171F9EEB0008C452 /* EmissionLongitudeHandler.h */,
+				590B0432171F9EEB0008C452 /* EmissionLongitudeHandler.m */,
+				590B0434171F9EFD0008C452 /* EmissionRangeHandler.h */,
+				590B0435171F9EFD0008C452 /* EmissionRangeHandler.m */,
+				590B0437171F9F210008C452 /* VelocityHandler.h */,
+				590B0438171F9F210008C452 /* VelocityHandler.m */,
+				590B043A171F9F2E0008C452 /* VelocityRangeHandler.h */,
+				590B043B171F9F2E0008C452 /* VelocityRangeHandler.m */,
+				590B043D171F9F3F0008C452 /* XAccelerationHandler.h */,
+				590B043E171F9F400008C452 /* XAccelerationHandler.m */,
+				590B0440171F9F4F0008C452 /* YAccelerationHandler.h */,
+				590B0441171F9F4F0008C452 /* YAccelerationHandler.m */,
+				590B0443171F9F5C0008C452 /* ZAccelerationHandler.h */,
+				590B0444171F9F5C0008C452 /* ZAccelerationHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		5910DD2D1717BC4E002A6C2B /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				590827A517154D8600B867C0 /* particle.png */,
+			);
+			name = particle;
+			sourceTree = "<group>";
+		};
 		5911FB6317140DB400D0B1B2 = {
 			isa = PBXGroup;
 			children = (
 				5911FB7517140DB400D0B1B2 /* ParticleDesigner */,
+				590723F71714FC00001417EC /* ThirdParty */,
 				5911FB6E17140DB400D0B1B2 /* Frameworks */,
 				5911FB6D17140DB400D0B1B2 /* Products */,
 			);
@@ -68,6 +474,7 @@
 		5911FB6E17140DB400D0B1B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				594F712F1715176900DC8128 /* QuartzCore.framework */,
 				5911FB6F17140DB400D0B1B2 /* UIKit.framework */,
 				5911FB7117140DB400D0B1B2 /* Foundation.framework */,
 				5911FB7317140DB400D0B1B2 /* CoreGraphics.framework */,
@@ -80,6 +487,11 @@
 			children = (
 				5911FB7E17140DB400D0B1B2 /* AppDelegate.h */,
 				5911FB7F17140DB400D0B1B2 /* AppDelegate.m */,
+				5914FBBD1716B04E0041D66D /* MainStoryboard.storyboard */,
+				594F711F17150CE900DC8128 /* Model */,
+				5911FB8E171415EB00D0B1B2 /* View */,
+				5911FB9317141A7000D0B1B2 /* Controller */,
+				5911FB8F1714163700D0B1B2 /* Resource */,
 				5911FB7617140DB400D0B1B2 /* Supporting Files */,
 			);
 			path = ParticleDesigner;
@@ -88,15 +500,119 @@
 		5911FB7617140DB400D0B1B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5911FB8117140DB400D0B1B2 /* Default.png */,
+				5911FB8317140DB400D0B1B2 /* Default@2x.png */,
+				5911FB8517140DB400D0B1B2 /* Default-568h@2x.png */,
 				5911FB7717140DB400D0B1B2 /* ParticleDesigner-Info.plist */,
 				5911FB7817140DB400D0B1B2 /* InfoPlist.strings */,
 				5911FB7B17140DB400D0B1B2 /* main.m */,
 				5911FB7D17140DB400D0B1B2 /* ParticleDesigner-Prefix.pch */,
-				5911FB8117140DB400D0B1B2 /* Default.png */,
-				5911FB8317140DB400D0B1B2 /* Default@2x.png */,
-				5911FB8517140DB400D0B1B2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5911FB8E171415EB00D0B1B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5911FB901714170500D0B1B2 /* ParticleContentView.h */,
+				5911FB911714170500D0B1B2 /* ParticleContentView.m */,
+				5911FB9717141F9D00D0B1B2 /* ArgumentHandleView.h */,
+				5911FB9817141F9D00D0B1B2 /* ArgumentHandleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5911FB8F1714163700D0B1B2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5910DD2D1717BC4E002A6C2B /* particle */,
+				590C9FF4171BFFF00055D3BE /* separator.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5911FB9317141A7000D0B1B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5911FB9417141AB500D0B1B2 /* MainViewController.h */,
+				5911FB9517141AB500D0B1B2 /* MainViewController.m */,
+				59093D871718F81E00522783 /* ContainerViewControllerDelegate */,
+				59093D7F1718E6B100522783 /* ContainerViewController1 */,
+				5909D95F171B87C700E192DE /* ContainerViewController2 */,
+				590697E4171D4D6800E3E68D /* ContainerViewController3 */,
+				59084CD1171E7CC500BF7F02 /* ContainerViewController4 */,
+				590B0420171F806C0008C452 /* ContainerViewController5 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		594F711F17150CE900DC8128 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				594F712017150D6800DC8128 /* Data.h */,
+				594F712117150D6800DC8128 /* Data.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		596B0D13171CE9F500C2B424 /* KZColorPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				596B0D14171CE9F500C2B424 /* ColorPicker */,
+				596B0D2E171CE9F500C2B424 /* KZColorPickerViewController.h */,
+				596B0D2F171CE9F500C2B424 /* KZColorPickerViewController.m */,
+			);
+			path = KZColorPickerViewController;
+			sourceTree = "<group>";
+		};
+		596B0D14171CE9F500C2B424 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				596B0D17171CE9F500C2B424 /* images */,
+				596B0D15171CE9F500C2B424 /* HSV.c */,
+				596B0D16171CE9F500C2B424 /* HSV.h */,
+				596B0D1E171CE9F500C2B424 /* KZColorCompareView.h */,
+				596B0D1F171CE9F500C2B424 /* KZColorCompareView.m */,
+				596B0D20171CE9F500C2B424 /* KZColorPicker.h */,
+				596B0D21171CE9F500C2B424 /* KZColorPicker.m */,
+				596B0D22171CE9F500C2B424 /* KZColorPickerAlphaSlider.h */,
+				596B0D23171CE9F500C2B424 /* KZColorPickerAlphaSlider.m */,
+				596B0D24171CE9F500C2B424 /* KZColorPickerBrightnessSlider.h */,
+				596B0D25171CE9F500C2B424 /* KZColorPickerBrightnessSlider.m */,
+				596B0D26171CE9F500C2B424 /* KZColorPickerHSWheel.h */,
+				596B0D27171CE9F500C2B424 /* KZColorPickerHSWheel.m */,
+				596B0D28171CE9F500C2B424 /* KZColorPickerSwatchView.h */,
+				596B0D29171CE9F500C2B424 /* KZColorPickerSwatchView.m */,
+				596B0D2A171CE9F500C2B424 /* KZUnitSlider.h */,
+				596B0D2B171CE9F500C2B424 /* KZUnitSlider.m */,
+				596B0D2C171CE9F500C2B424 /* UIColor-Expanded.h */,
+				596B0D2D171CE9F500C2B424 /* UIColor-Expanded.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		596B0D17171CE9F500C2B424 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				596B0D18171CE9F500C2B424 /* checkerboard.png */,
+				596B0D19171CE9F500C2B424 /* checkerboard@2x.png */,
+				596B0D1A171CE9F500C2B424 /* colorPickerKnob.png */,
+				596B0D1B171CE9F500C2B424 /* colorPickerKnob@2x.png */,
+				596B0D1C171CE9F500C2B424 /* pickerColorWheel.png */,
+				596B0D1D171CE9F500C2B424 /* pickerColorWheel@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		596B0D45171CFE2300C2B424 /* UIGlossyButton */ = {
+			isa = PBXGroup;
+			children = (
+				596B0D46171CFE2300C2B424 /* UIGlossyButton.h */,
+				596B0D47171CFE2300C2B424 /* UIGlossyButton.m */,
+				596B0D48171CFE2300C2B424 /* UIView+LayerEffects.h */,
+				596B0D49171CFE2300C2B424 /* UIView+LayerEffects.m */,
+			);
+			path = UIGlossyButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +670,18 @@
 				5911FB8217140DB400D0B1B2 /* Default.png in Resources */,
 				5911FB8417140DB400D0B1B2 /* Default@2x.png in Resources */,
 				5911FB8617140DB400D0B1B2 /* Default-568h@2x.png in Resources */,
+				590723FF1714FC92001417EC /* shadowOverlay@2x.png in Resources */,
+				590724001714FC92001417EC /* stretchableGlass@2x.png in Resources */,
+				590724011714FC92001417EC /* wheelBackground@2x.png in Resources */,
+				590827A617154D8600B867C0 /* particle.png in Resources */,
+				5914FBBE1716B04E0041D66D /* MainStoryboard.storyboard in Resources */,
+				590C9FF5171BFFF10055D3BE /* separator.png in Resources */,
+				596B0D31171CE9F500C2B424 /* checkerboard.png in Resources */,
+				596B0D32171CE9F500C2B424 /* checkerboard@2x.png in Resources */,
+				596B0D33171CE9F500C2B424 /* colorPickerKnob.png in Resources */,
+				596B0D34171CE9F500C2B424 /* colorPickerKnob@2x.png in Resources */,
+				596B0D35171CE9F500C2B424 /* pickerColorWheel.png in Resources */,
+				596B0D36171CE9F500C2B424 /* pickerColorWheel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +694,64 @@
 			files = (
 				5911FB7C17140DB400D0B1B2 /* main.m in Sources */,
 				5911FB8017140DB400D0B1B2 /* AppDelegate.m in Sources */,
+				5911FB921714170500D0B1B2 /* ParticleContentView.m in Sources */,
+				5911FB9617141AB500D0B1B2 /* MainViewController.m in Sources */,
+				5911FB9917141F9D00D0B1B2 /* ArgumentHandleView.m in Sources */,
+				590724021714FC92001417EC /* CPPickerView.m in Sources */,
+				590724031714FC92001417EC /* CPPickerViewCell.m in Sources */,
+				594F712217150D6800DC8128 /* Data.m in Sources */,
+				594F71251715112E00DC8128 /* RenderModeHandler.m in Sources */,
+				59188E2B171655160061B13C /* PositionHandler.m in Sources */,
+				590DA31C17180907003C9F5C /* EmitterShapeHandler.m in Sources */,
+				59093D821718E6E100522783 /* ContainerViewController1.m in Sources */,
+				59093D8B1718FDCE00522783 /* EmitterDepthHandler.m in Sources */,
+				5909D6DC171954400015BD89 /* EmitterSizeHandler.m in Sources */,
+				5909D95E171B81F000E192DE /* EmitterScaleHandler.m in Sources */,
+				5909D962171B87F700E192DE /* ContainerViewController2.m in Sources */,
+				5909D966171B9B0E00E192DE /* EmitterSpinHandler.m in Sources */,
+				5909D969171BA2E700E192DE /* EmitterVelocityHandler.m in Sources */,
+				5909D96C171BAD6800E192DE /* EmitterModeHandler.m in Sources */,
+				590C9FF3171BF92F0055D3BE /* EmitterBirthRateHandler.m in Sources */,
+				59090AD3171CD41C00CBBBCA /* EmitterLifeTimeHandler.m in Sources */,
+				596B0D30171CE9F500C2B424 /* HSV.c in Sources */,
+				596B0D37171CE9F500C2B424 /* KZColorCompareView.m in Sources */,
+				596B0D38171CE9F500C2B424 /* KZColorPicker.m in Sources */,
+				596B0D39171CE9F500C2B424 /* KZColorPickerAlphaSlider.m in Sources */,
+				596B0D3A171CE9F500C2B424 /* KZColorPickerBrightnessSlider.m in Sources */,
+				596B0D3B171CE9F500C2B424 /* KZColorPickerHSWheel.m in Sources */,
+				596B0D3C171CE9F500C2B424 /* KZColorPickerSwatchView.m in Sources */,
+				596B0D3D171CE9F500C2B424 /* KZUnitSlider.m in Sources */,
+				596B0D3E171CE9F500C2B424 /* UIColor-Expanded.m in Sources */,
+				596B0D3F171CE9F500C2B424 /* KZColorPickerViewController.m in Sources */,
+				596B0D44171CF3F500C2B424 /* ParticleColorHandler.m in Sources */,
+				596B0D4A171CFE2300C2B424 /* UIGlossyButton.m in Sources */,
+				596B0D4B171CFE2300C2B424 /* UIView+LayerEffects.m in Sources */,
+				590697E8171D4D9C00E3E68D /* ContainerViewController3.m in Sources */,
+				590CD40F171E495D001C84D3 /* RedHandler.m in Sources */,
+				590CD41B171E55E1001C84D3 /* GreenHandler.m in Sources */,
+				590CD41E171E55EB001C84D3 /* BlueHandler.m in Sources */,
+				590CD421171E55F4001C84D3 /* AlphaHandler.m in Sources */,
+				59084CD5171E7D2500BF7F02 /* ContainerViewController4.m in Sources */,
+				59084CD8171E88EF00BF7F02 /* MagnificationFilterHandler.m in Sources */,
+				59084CDB171E93B700BF7F02 /* MinificationFilterHandler.m in Sources */,
+				59084CDE171E9E4F00BF7F02 /* ScaleHandler.m in Sources */,
+				59084CE1171EA76F00BF7F02 /* ScaleRangeHandler.m in Sources */,
+				59084CE4171EAA6500BF7F02 /* ScaleSpeedHandler.m in Sources */,
+				590B041C171F773B0008C452 /* SpinHandler.m in Sources */,
+				590B041F171F798D0008C452 /* SpinRangeHandler.m in Sources */,
+				590B0424171F80F50008C452 /* ContainerViewController5.m in Sources */,
+				590B0427171F904E0008C452 /* CellBirthRateHandler.m in Sources */,
+				590B042A171F908F0008C452 /* CellLifeTimeHandler.m in Sources */,
+				590B042D171F909F0008C452 /* CellLifeTimeRangeHandler.m in Sources */,
+				590B0430171F9ED60008C452 /* EmissionLatitudeHandler.m in Sources */,
+				590B0433171F9EEB0008C452 /* EmissionLongitudeHandler.m in Sources */,
+				590B0436171F9EFD0008C452 /* EmissionRangeHandler.m in Sources */,
+				590B0439171F9F210008C452 /* VelocityHandler.m in Sources */,
+				590B043C171F9F2F0008C452 /* VelocityRangeHandler.m in Sources */,
+				590B043F171F9F400008C452 /* XAccelerationHandler.m in Sources */,
+				590B0442171F9F4F0008C452 /* YAccelerationHandler.m in Sources */,
+				590B0445171F9F5C0008C452 /* ZAccelerationHandler.m in Sources */,
+				590B0448171FA2660008C452 /* TextFieldSliderHandlerBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +830,14 @@
 		5911FB8A17140DB400D0B1B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParticleDesigner/ParticleDesigner-Prefix.pch";
 				INFOPLIST_FILE = "ParticleDesigner/ParticleDesigner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,10 +845,16 @@
 		5911FB8B17140DB400D0B1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParticleDesigner/ParticleDesigner-Prefix.pch";
 				INFOPLIST_FILE = "ParticleDesigner/ParticleDesigner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,6 +878,7 @@
 				5911FB8B17140DB400D0B1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
